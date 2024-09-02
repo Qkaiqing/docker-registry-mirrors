@@ -52,11 +52,11 @@ mkdir -p ${PROXY_DIR}
 cd "${PROXY_DIR}"
 
 # 项目RAW地址
-GITRAW="https://raw.githubusercontent.com/kubesre/docker-registry-mirrors/main/dockerproxy"
+GITRAW="https://raw.githubusercontent.com/Qkaiqing/docker-registry-mirrors/main/dockerproxy"
 
 # 部署的容器名称和镜像版本
 CONTAINER_NAME_LIST=("gateway" "crproxy")
-IMAGE_NAME="ghcr.io/wzshiming/nginx-certbot"
+IMAGE_NAME="docker.io/registrycn/base"
 CRPROXY_IMAGE_NAME="ghcr.io/wzshiming/crproxy/crproxy"
 DOCKER_COMPOSE_FILE="docker-compose.yaml"
 # 定义常用仓库别名数组
