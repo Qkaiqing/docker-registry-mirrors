@@ -1,6 +1,6 @@
 services:
   gateway:
-    image: docker.io/registrycn/base:nginx.certbot.v1-alpine
+    image: registrycn/nginx-certbot:v1.25.5-alpine
     container_name: gateway
     restart: unless-stopped
     volumes:
