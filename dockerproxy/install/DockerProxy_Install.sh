@@ -56,7 +56,7 @@ GITRAW="https://raw.githubusercontent.com/Qkaiqing/docker-registry-mirrors/main/
 
 # 部署的容器名称和镜像版本
 CONTAINER_NAME_LIST=("gateway" "crproxy")
-IMAGE_NAME="docker.io/registrycn/base"
+IMAGE_NAME="registrycn/nginx-certbot"
 CRPROXY_IMAGE_NAME="ghcr.io/wzshiming/crproxy/crproxy"
 DOCKER_COMPOSE_FILE="docker-compose.yaml"
 # 定义常用仓库别名数组
